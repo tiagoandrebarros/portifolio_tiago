@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio de Tiago</title>
+    <link rel="stylesheet" href="css/bootstrap_css/bootstrap.min.css"> <!-- CSS do Bootstrap 5.3.3 -->
+    <link rel="stylesheet" href="css/bootstrap-icons-1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pages_style/formacao_e_cursos.css">
+    <link rel="stylesheet" href="css/pages_style/habilidades.css">
+    <link rel="stylesheet" href="css/pages_style/inicio.css">
+    <link rel="stylesheet" href="css/pages_style/projetos.css">
+    <script src="js/bootstrap_js/bootstrap.bundle.min.js"></script> <!-- JS do Bootstrap -->
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" onclick="carregarPagina('pages/inicio.html')" href="#">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" onclick="carregarPagina('pages/habilidades.html')" href="#">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" onclick="carregarPagina('pages/projetos.html')" href="#">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" onclick="carregarPagina('pages/formacao_e_cursos.html')" href="#">Formação e cursos</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main id="conteudo">
+    </main>
+
+    <footer>
+        <p>Tiago Barros 2025</p>
+    </footer>
+
+    <script>
+        carregarPagina('pages/inicio.html')
+    </script>
+    
+</body>
+</html>
