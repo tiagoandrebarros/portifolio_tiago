@@ -18,7 +18,15 @@ footer{
 }
 
 .elemento_linha_bloco{
-    display: inline-block;
+    display: inline-block;       
+}
+
+.elemento_linha_bloco h2{
+    margin-left: 1rem;
+}
+
+.habilidade{
+    margin-bottom: 1rem;
 }
 
 a{
@@ -39,4 +47,17 @@ a{
 
 #conteudo{
     margin-bottom: 2rem;
+}
+
+.pg_projetos hr{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.pg_projetos h3{
+    font-size: 1.3rem;
+}
+
+.pg_projetos p{
+    text-align: justify;
 }
