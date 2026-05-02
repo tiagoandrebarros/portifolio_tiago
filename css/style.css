@@ -29,6 +29,14 @@ footer{
     margin-bottom: 1rem;
 }
 
+.habilidade h2{
+    font-size: 1.2rem;
+}
+
+.pg_projetos div div h3, .pg_projetos div div h2{
+    font-size: 1.2rem;
+}
+
 a{
     text-decoration: none;
 }
